@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import average
 import median
 import mode
@@ -11,7 +12,7 @@ def menu():
         print(median.get_median())
     if choice == 3:
         print(mode.get_mode())
-    if choice == 4:
+    if choice == 4: 
         print(standard_deviation.get_standard_deviation())
 
 if __name__ == '__main__':

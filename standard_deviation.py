@@ -1,4 +1,5 @@
 import math
+
 def get_standard_deviation():
     number_array = list()
     average = delta = 0
